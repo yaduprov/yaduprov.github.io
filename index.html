@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para whoisflan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Mi Valepro</strong>
+                        <p>
+                            Perdunn Valentina, me porte inmaduro y de cierta forma no sé si te hice algo malo
+                            pero solo quiero que hablemos y salvemos esta amistad porque yo soy tu chica y tú 
+                            mi indiscreta, And I don't want the world to see me 'Cause I don't think that they'd understand When 
+                            everything's made to be broken I just want you to know who I am.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
